@@ -1,0 +1,30 @@
+* {
+  text-transform: capitalize;
+}
+body::before {
+  content: '';
+  display: block;
+  margin-top: 50px;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(13 110 253);
+}
+.logo {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+.news-input {
+  width: 40%;
+}
+@media (max-width:768px) {
+  .news-input {
+    width: 100%;
+  }
+}
